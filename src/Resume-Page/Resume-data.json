@@ -1,0 +1,123 @@
+{
+    "basics": {
+      "name": "Stephan DuVal",
+      "label": "Full Stack Web Developer",
+      "image": "",
+      "email": "stephan.duval@gmail.com",
+      "phone": "+1 (788) 778-3800",
+      "url": "",
+      "summary": "Enthusiastic developer with an interest in entrepreneurship",
+      "location": {
+        "address": "1-2785 Commercial Drive",
+        "postalCode": "V5N 4C5",
+        "city": "Vancouver",
+        "countryCode": "CA",
+        "region": "British Columbia"
+      },
+      "profiles": [{
+        "network": "GitHub",
+        "username": "john",
+        "url": "https://github.com/stephanduval"
+      }]
+    },
+    "work": [{
+      "name": "eSnail.ca",
+      "position": "Director of Operations",
+      "url": "https://eSnail.ca",
+      "startDate": "2008-02-11",
+      "endDate": "CURRENT",
+      "summary": "Company founder and manager of day to day operations",
+      "highlights": [
+        "Started the company and oversaw it through three major developement changes"
+      ]
+    },
+    {
+        "name": "MailClerk.com",
+        "position": "Director",
+        "url": "https://mailclerk.com",
+        "startDate": "2020-02-08",
+        "endDate": "CURRENT",
+        "summary": "Company founder and manager of day to day operations",
+        "highlights": [
+          "Started the company and began developing an operations team"
+        ]
+    }],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "University of Alberta",
+      "url": "https://www.ualberta.ca/",
+      "area": "Arts",
+      "studyType": "Bachelor",
+      "startDate": "2003-09-01",
+      "endDate": "2008-08-15",
+      "score": "3.2",
+      "courses": [
+        "Spanish 201, Comp Sci 101, Writing and English 400"
+      ]
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [{
+      "name": "Project",
+      "description": "Description…",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "keywords": [
+        "HTML"
+      ],
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "url": "https://project.com/",
+      "roles": [
+        "Team Lead"
+      ],
+      "entity": "Entity",
+      "type": "application"
+    }]
+  }
