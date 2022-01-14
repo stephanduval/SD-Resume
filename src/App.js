@@ -1,5 +1,5 @@
 import './App.css';
-
+import ResumeActual from './Resume-Page/Resume-Page';
 function App() {
   return (
     <div className="App">
@@ -7,8 +7,8 @@ function App() {
 
       </header>
 
-      
-    </div>
+      <ResumeActual></ResumeActual>
+      HEY HEYT  </div>
   );
 }
 
