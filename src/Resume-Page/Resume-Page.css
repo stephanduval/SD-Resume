@@ -1,0 +1,81 @@
+.grid-container {
+    display: grid;
+    grid-template-columns:  auto 26% 26% 13% 13%;
+    background-color: #666;
+    padding: 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-gap: 10px;
+    width: 80%;
+    margin: auto;
+    line-height: 1.0;
+    border: solid;
+    text-align: center;
+}
+
+.resume-header {
+    grid-column: 1/4;
+    background-color: #888;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+
+.contact-information {
+    grid-column: 4/6;
+    background-color: #888;
+    padding: 0px;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+
+.row-title {
+    background-color: #999;
+    border: solid;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.profile {
+    grid-column: 2/6;
+    border: solid;
+}
+
+
+
+.technical {
+    grid-column: 2/6;
+    border: solid;
+}
+
+.experience {
+    grid-column: 2/5;
+    border: solid;
+}
+
+.education {
+    grid-column: 2/6;
+    border: solid;
+
+
+}
+
+.date {
+    background-color: aliceblue;
+
+}
+
+
+.skills {
+    background-color: #888;
+    border: solid;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    
+    
+}
+

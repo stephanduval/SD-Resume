@@ -1,7 +1,5 @@
-import resumeData from './Resume-data.json'
-// import { parseSpeficiedDataFRomResumeJSON } from './Resume-Page-Functions'
-// import sampleJSON from './sampleJSON.json'
-import { parseSpeficiedDataFRomResumeJSON, testJSONFunction } from './Resume-Page-Functions';
+import resumeData from './Resume-data.json';
+import './Resume-Page.css';
 
 let basics ="basics";
 let name = "name";
@@ -23,17 +21,42 @@ const mapJSONData = (JSONData) => {
 
 function ResumeActual() {
     return (
-      <div className="Resume">
+      <div className="ResumePage">
+      <div className="grid-container">
+        <div className="resume-header">Stephan Douglas DuVal
+        <div>Full Stack Developer</div>
+        </div>
+        <div className="contact-information">Download
+        <div>778-788-3800</div>
+        <div>stephan.duval@gmail.com</div>
+        </div>
+        <div className="row-title">profile</div>
+        <div className="profile">A profile card</div>
+        <div className="row-title">Skills</div>
+        <div className="skills">Skill1</div>
+        <div className="skills">Skill2</div>
+        <div className="skills">Skill3</div>
+        <div className="skills">Skill3</div>
+
+        <div className="row-title">Technical</div>
+        <div className="technical">A technical card</div>
+        <div className="row-title">Experience</div>
+        <div className="experience">An experience card</div>
+        <div className="date"> 2001-2007  </div>
+        <div className="row-title">Education</div>
+        <div className="education">An education card</div>
+
+      </div>
       {(JSON.stringify(resumeData.basics.name))}
       <br></br>
-     parse {parseSpeficiedDataFRomResumeJSON(resumeData,basics,name)}
+     {/* parse {parseSpeficiedDataFRomResumeJSON(resumeData,basics,name)} */}
       <br></br>
-    test JSON Function {testJSONFunction(param)}
+    {/* test JSON Function {testJSONFunction(param)} */}
     <br></br>
       {/* {mapJSONData(resumeData)} */}
-      ResumeActual
-          </div>
+      ResumeActual  
 
+</div>
         
     );
   }
