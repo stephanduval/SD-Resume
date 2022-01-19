@@ -1,7 +1,7 @@
 import resumeData from './Resume-data.json';
 import { useEffect } from 'react';
 import './Resume-Page.css';
-import { showWork, createHTMLFromJS } from './Resume-Page-Functions';
+import { showWork, populateWorkSection } from './Resume-Page-Functions';
 
 let basics ="basics";
 let name = "name";
@@ -22,7 +22,7 @@ function ResumeActual() {
 
 
   useEffect(() => {
-    createHTMLFromJS(resumeData);
+    populateWorkSection(resumeData);
   });
 
     return (
@@ -45,7 +45,7 @@ function ResumeActual() {
 
         <div className="row-title">Technical</div>
         <div className="technical">A technical card</div>
-        <div className="work-container">{showWork()}</div>
+        <div id="work-container" className="work-container">{showWork()}</div>
 
         {/* START OF WORK LOOP */}
         

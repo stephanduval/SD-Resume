@@ -56,52 +56,59 @@ export const parseSpeficiedDataFRomResumeJSON = (resumeData,tier1,tier2,tier3)=>
   }
 }
 
-/*
 
-"work": [{
-      "name": "eSnail.ca",
-      "position": "Director of Operations",
-      "url": "https://eSnail.ca",
-      "startDate": "2008-02-11",
-      "endDate": "CURRENT",
-      "summary": "Company founder and manager of day to day operations",
-      "highlights": [
-        "Started the company and oversaw it through three major developement changes"
-      ]
-    },
-    {
-        "name": "MailClerk.com",
-        "position": "Director",
-        "url": "https://mailclerk.com",
-        "startDate": "2020-02-08",
-        "endDate": "CURRENT",
-        "summary": "Company founder and manager of day to day operations",
-        "highlights": [
-          "Started the company and began developing an operations team"
-        ]
-    }],
+export const showWork = () => {
+  for (let i = 0; i < 3; i++) {
 
-*/
 
-export const createHTMLFromJS = (objFromJSON) => {
+  return (
+
+    <div className="contents-container">
+    <div className="row-title">Workie</div>
+    <div className="work">    "This text came from the showWork function"</div>
+    <div className="date"> 2001-2007  </div>
+
+    
+    </div>
+  )
+  }
+
+}
+
+export const populateWorkSection = (objFromJSON) => {
   // const work = objFromJSON['work'];
 
-  for (let i = 0; i <  Object.keys(objFromJSON.work).length; i++) {
+  const populateSection = (iterationNumber,section,subsection) => {
+    // const JSONstring = ".work["+iterationNumber+"].name";
+    const JSONstring = "work";
+    const workDiv = document.createElement('div');
+    const companyNameHeader = document.createElement("p");
+    const companyNameTextNode = document.createTextNode(JSON.stringify(resumeData.JSONstring)+"IN");
+    workDiv.appendChild(companyNameHeader);
+    companyNameHeader.appendChild(companyNameTextNode);
+    const workContainer = document.getElementById("work-container");
+    workContainer.appendChild(companyNameHeader);
+  console.log("POPULATE WORKED")
+}
 
-
-  const para = document.createElement("p");
-  const node = document.createTextNode("name " + (JSON.stringify(resumeData.basics.name)));
-  const length = document.createTextNode(" appended later ");
-  para.appendChild(node);
-  para.appendChild(length);
-
-  const companyName = document.createElement("h2");
-  const companyNameTextNode = document.createTextNode(JSON.stringify(resumeData.work[i].name));
-  para.appendChild(companyNameTextNode);
-
+  for (let iterationNumber = 0; iterationNumber < Object.keys(objFromJSON.work).length; iterationNumber++) {
+  // div.className = 'work';  The code to assign a className isn't working
   
-  const element = document.getElementById("div1");
-  element.appendChild(para);
+  populateSection(iterationNumber,"work","name");
+  // START create the title
+  // const companyNameHeader = document.createElement("p");
+  // const companyNameTextNode = document.createTextNode(JSON.stringify(resumeData.work[i].name)+"out");
+  // workDiv.appendChild(companyNameHeader);
+  // companyNameHeader.appendChild(companyNameTextNode);
+  // const workContainer = document.getElementById("work-container");
+  // workContainer.appendChild(companyNameHeader);
+
+  // END create the title
+  // START create the date section
+
+  //END create the date section
+
+
   }
 }
 
@@ -134,23 +141,6 @@ export const createHTMLFromJS = (objFromJSON) => {
     */
 
 
-export const showWork = () => {
-  for (let i = 0; i < 3; i++) {
-
-
-  return (
-
-    <div className="contents-container">
-    <div className="row-title">Workie</div>
-    <div className="work">    "This text came from the showWork function"</div>
-    <div className="date"> 2001-2007  </div>
-
-    
-    </div>
-  )
-  }
-
-}
 /*
 function showWorkTest(obj) {
   const workObject = obj['work'];
