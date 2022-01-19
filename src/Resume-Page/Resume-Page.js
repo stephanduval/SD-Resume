@@ -1,25 +1,30 @@
 import resumeData from './Resume-data.json';
+import { useEffect } from 'react';
 import './Resume-Page.css';
+import { showWork, createHTMLFromJS } from './Resume-Page-Functions';
 
 let basics ="basics";
 let name = "name";
 
 let param = "basics.name";
+// const resumeDataParsed = JSON.parse(resumeData);
+const resumeDataString = JSON.stringify(resumeData.work);
 
-const mapJSONData = (JSONData) => {
-  JSONData.map(post => {
-    return(
-      <div>
-        <h4>{post}</h4>
-        {/* <p> {post.url}</p> */}
-      </div>
-    )
-  })
-}
 
+console.log("resumeDataString",resumeDataString)
+console.log("JSON",resumeData.work)
+// console.log("JSON LENGTH",object.keys(resumeData).length())
+// console.log("resumeDataParsed",resumeDataParsed)
 // }
 
+
 function ResumeActual() {
+
+
+  useEffect(() => {
+    createHTMLFromJS(resumeData);
+  });
+
     return (
       <div className="ResumePage">
       <div className="grid-container">
@@ -40,13 +45,23 @@ function ResumeActual() {
 
         <div className="row-title">Technical</div>
         <div className="technical">A technical card</div>
-        <div className="row-title">Experience</div>
-        <div className="experience">An experience card</div>
-        <div className="date"> 2001-2007  </div>
+        <div className="work-container">{showWork()}</div>
+
+        {/* START OF WORK LOOP */}
+        
+
+
+
+        {/* END OF WORK LOOP */}
         <div className="row-title">Education</div>
         <div className="education">An education card</div>
 
       </div>
+      <div id="div1">
+  <p id="p1">This is a paragraph.</p>
+  <p id="p2">This is another paragraph.</p>
+</div>
+    
       {(JSON.stringify(resumeData.basics.name))}
       <br></br>
      {/* parse {parseSpeficiedDataFRomResumeJSON(resumeData,basics,name)} */}
@@ -56,6 +71,11 @@ function ResumeActual() {
       {/* {mapJSONData(resumeData)} */}
       ResumeActual  
 
+
+
+
+
+      
 </div>
         
     );
