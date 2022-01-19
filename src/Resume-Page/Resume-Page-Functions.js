@@ -77,14 +77,13 @@ export const showWork = () => {
 
 export const populateWorkSection = (objFromJSON) => {
   // const work = objFromJSON['work'];
-
-  const populateSection = (iterationNumber,section,subsection) => {
-    // const JSONstring = ".work["+iterationNumber+"].name";
-    const JSONstring = "work";
+    const work = "basics" // how can I customize the object call????
+    const populateSection = (iterationNumber) => {
+    const JSONstring = JSON.stringify(objFromJSON.work[iterationNumber].name);
     const workDiv = document.createElement('div');
     const companyNameHeader = document.createElement("p");
-    const companyNameTextNode = document.createTextNode(JSON.stringify(resumeData.JSONstring)+"IN");
-    workDiv.appendChild(companyNameHeader);
+    const companyNameTextNode = document.createTextNode((JSONstring)+" !> INSIDE FUNCTION <!");
+    workDiv.appendChild(companyNameHeader); 
     companyNameHeader.appendChild(companyNameTextNode);
     const workContainer = document.getElementById("work-container");
     workContainer.appendChild(companyNameHeader);
@@ -94,7 +93,7 @@ export const populateWorkSection = (objFromJSON) => {
   for (let iterationNumber = 0; iterationNumber < Object.keys(objFromJSON.work).length; iterationNumber++) {
   // div.className = 'work';  The code to assign a className isn't working
   
-  populateSection(iterationNumber,"work","name");
+  populateSection(iterationNumber);
   // START create the title
   // const companyNameHeader = document.createElement("p");
   // const companyNameTextNode = document.createTextNode(JSON.stringify(resumeData.work[i].name)+"out");
