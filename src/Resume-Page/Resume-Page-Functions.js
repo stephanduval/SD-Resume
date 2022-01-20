@@ -57,36 +57,37 @@ export const parseSpeficiedDataFRomResumeJSON = (resumeData,tier1,tier2,tier3)=>
 }
 
 
-export const showWork = () => {
-  for (let i = 0; i < 3; i++) {
-
-
-  return (
-
-    <div className="contents-container">
-    <div className="row-title">Workie</div>
-    <div className="work">    "This text came from the showWork function"</div>
-    <div className="date"> 2001-2007  </div>
-
-    
-    </div>
-  )
-  }
-
-}
 
 export const populateWorkSection = (objFromJSON) => {
   // const work = objFromJSON['work'];
     const work = "basics" // how can I customize the object call????
     const populateSection = (iterationNumber) => {
-    const JSONstring = JSON.stringify(objFromJSON.work[iterationNumber].name);
-    const workDiv = document.createElement('div');
-    const companyNameHeader = document.createElement("p");
-    const companyNameTextNode = document.createTextNode((JSONstring)+" !> INSIDE FUNCTION <!");
-    workDiv.appendChild(companyNameHeader); 
-    companyNameHeader.appendChild(companyNameTextNode);
+    const JSONCompanyNameString = JSON.stringify(objFromJSON.work[iterationNumber].name);
+    const workArticleDiv = document.createElement('div');
+    workArticleDiv.id = 'work-container';
     const workContainer = document.getElementById("work-container");
+    const companyNameHeader = document.createElement("p");
+    const companyNameTextNode = document.createTextNode((JSONCompanyNameString));
+    workArticleDiv.appendChild(companyNameHeader); 
+    companyNameHeader.appendChild(companyNameTextNode);
     workContainer.appendChild(companyNameHeader);
+    workContainer.className="work-article";
+
+    const JSONDateString = "ff" 
+        // JSON.stringify(objFromJSON.work[iterationNumber].startDate);
+
+    const workDateDiv = document.createElement('div');
+    workDateDiv.id = 'work-date-container';
+    const dateContainer = document.getElementById("work-date-container");
+    const workDateHeader = document.createElement("p");
+    const workDateTextNode = document.createTextNode((JSONDateString));
+    workDateDiv.appendChild(workDateHeader); 
+    workDateHeader.appendChild(workDateTextNode);
+    // dateContainer.appendChild(workDateHeader);
+    // dateContainer.className="work-date";
+
+
+
   console.log("POPULATE WORKED")
 }
 
