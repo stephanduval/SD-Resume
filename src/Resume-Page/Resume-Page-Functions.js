@@ -81,8 +81,8 @@ export const populateWorkSection = (objFromJSON) => {
     const dateContainer = document.getElementById("work-date-container");
     const workDateHeader = document.createElement("p");
     const workDateTextNode = document.createTextNode((JSONDateString));
-    workDateDiv.appendChild(workDateHeader); 
-    workDateHeader.appendChild(workDateTextNode);
+    // workDateDiv.appendChild(workDateHeader); 
+    // workDateHeader.appendChild(workDateTextNode);
     // dateContainer.appendChild(workDateHeader);
     // dateContainer.className="work-date";
 

@@ -46,7 +46,7 @@ function ResumeActual() {
         <div className="row-title">Technical</div>
         <div className="technical">A technical card</div>
         <div id="work-container" className="work-container"></div>
-
+        
         {/* START OF WORK LOOP */}
         
 
