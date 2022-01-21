@@ -57,57 +57,60 @@ export const parseSpeficiedDataFRomResumeJSON = (resumeData,tier1,tier2,tier3)=>
 }
 
 
-
-export const populateWorkSection = (objFromJSON) => {
+export const populateWorkSection = (objFromJSON,title) => {
   // const work = objFromJSON['work'];
     const work = "basics" // how can I customize the object call????
     const populateSection = (iterationNumber) => {
-    const JSONCompanyNameString = JSON.stringify(objFromJSON.work[iterationNumber].name);
-    const workContainer = document.getElementById("work-text");
-    const companyNameHeader = document.createElement("p");
-    const companyNameTextNode = document.createTextNode((JSONCompanyNameString));
-    workContainer.appendChild(companyNameHeader); 
-    companyNameHeader.appendChild(companyNameTextNode);
-    workContainer.appendChild(companyNameHeader);
-    workContainer.className="work-article";
 
-    const JSONDateString = "THE DATE" 
-        // JSON.stringify(objFromJSON.work[iterationNumber].startDate);
-
-    const dateContainer = document.getElementById("work-date");
-    const workDateHeader = document.createElement("p");
-    const workDateTextNode = document.createTextNode((JSONDateString));
-    dateContainer.appendChild(workDateHeader); 
-    workDateHeader.appendChild(workDateTextNode);
-    dateContainer.appendChild(workDateHeader);
-    dateContainer.className="work-date";
+    
+    const workContainer = document.getElementById("work-container");
+        
+        let JSONString = "Title";  //Unique Value
+        let div = document.createElement("div");
+        let paragraph = document.createElement("p");
+        let text = document.createTextNode(JSONString); 
+        workContainer.appendChild(div); 
+        div.appendChild(paragraph);
+        paragraph.appendChild(text);
+        div.classList.add("work-title");  // Unique Value
+        div.setAttribute("id", "work-title");  // Unique Value
 
 
 
-  console.log("POPULATE WORKED")
-}
+        // TEXT Field:
+        JSONString = JSON.stringify(objFromJSON.work[iterationNumber].name);
+        div = document.createElement("div");
+        paragraph = document.createElement("p");
+        text = document.createTextNode(JSONString); 
+        workContainer.appendChild(div); 
+        div.appendChild(paragraph);
+        paragraph.appendChild(text);
+        div.classList.add("work-text");  // Unique Value
+        div.setAttribute("id", "work-text");  // Unique Value
+        
+
+
+        // DATE FIELD:
+        JSONString = "THE DATE" 
+        div = document.createElement("div");
+        paragraph = document.createElement("p");
+        text = document.createTextNode(JSONString); 
+        workContainer.appendChild(div); 
+        div.appendChild(paragraph);
+        paragraph.appendChild(text);            
+        div.classList.add("work-date");
+        div.setAttribute("id", "work-text")
+        // workDateHeader.element.setAttribute("class", "work-date")
+        // workTitleEntry.classList.add('work-date');   
+ }
 
   for (let iterationNumber = 0; iterationNumber < Object.keys(objFromJSON.work).length; iterationNumber++) {
   // div.className = 'work';  The code to assign a className isn't working
   
   populateSection(iterationNumber);
-  // START create the title
-  // const companyNameHeader = document.createElement("p");
-  // const companyNameTextNode = document.createTextNode(JSON.stringify(resumeData.work[i].name)+"out");
-  // workDiv.appendChild(companyNameHeader);
-  // companyNameHeader.appendChild(companyNameTextNode);
-  // const workContainer = document.getElementById("work-container");
-  // workContainer.appendChild(companyNameHeader);
-
-  // END create the title
-  // START create the date section
-
-  //END create the date section
-
-
+  
   }
 }
-
 /*  Sample JSON code temp
 
 
@@ -137,49 +140,5 @@ export const populateWorkSection = (objFromJSON) => {
     */
 
 
-/*
-function showWorkTest(obj) {
-  const workObject = obj['work'];
-
-  for (let i = 0; i < workObject.length; i++) {
-    const workDiv = document.createElement('div');
-    div.className = 'work';
-
-
-
-    const myH2 = document.createElement('h2');
-    const myPara1 = document.createElement('p');
-    const myPara2 = document.createElement('p');
-    const myPara3 = document.createElement('p');
-    const myList = document.createElement('ul');
-
-/*
-    <div className="work">A work card</div>
-    <div className="date"> 2001-2007  </div>
-    <div className="row-title-blank">blank Experience</div>
-    <div className="work">A work card</div>
-    <div className="date"> 2001-2007  </div>
-*/
-/*
-    myH2.textContent = heroes[i].name;
-    myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
-    myPara2.textContent = 'Age: ' + heroes[i].age;
-    myPara3.textContent = 'Superpowers:';
-
-    const superPowers = heroes[i].powers;
-    for (let j = 0; j < superPowers.length; j++) {
-      const listItem = document.createElement('li');
-      listItem.textContent = superPowers[j];
-      myList.appendChild(listItem);
-    }
-
-    myArticle.appendChild(myH2);
-    myArticle.appendChild(myPara1);
-    myArticle.appendChild(myPara2);
-    myArticle.appendChild(myPara3);
-    myArticle.appendChild(myList);
-
-    section.appendChild(myArticle);
-  }
-} 
-*/
+    
+    

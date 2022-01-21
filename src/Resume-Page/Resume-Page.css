@@ -67,7 +67,7 @@
 .work-container {
     
     display: grid;
-    grid-template-columns:  auto 26% 26% 13% 13%;
+    grid-template-columns:  auto auto auto auto auto;
     background-color: #666;
     padding: 0;
     grid-column-gap: 10px;
@@ -77,31 +77,37 @@
     margin: auto;
     line-height: 1.0;
     border: dashed;
+    border-color: blue;
     text-align: center;
-}
-
-.work-article {
-    grid-column: 2/4;
-    padding: 0px;
-    border: dotted;
-
 }
 
 .work-title {
     grid-column: 1/2;
     padding: 0px;
+    border: dotted;
+    background-color: sandybrown;
+}
+
+.work-text {
+    grid-column: 2/5;
+    padding: 0px;
+    border: dotted;
+    background-color: sandybrown;
 
 }
 
 .work-date {
     grid-column: 5/6;
     padding: 0px;
+    border: dotted;
+    background-color: sandybrown;
 }
 
 
 .technical {
     grid-column: 2/6;
     border: solid;
+    
 }
 
 div {
