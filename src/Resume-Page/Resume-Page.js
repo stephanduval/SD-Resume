@@ -22,7 +22,7 @@ function ResumeActual() {
 
 
   useEffect(() => {
-    populateWorkSection(resumeData);
+    // populateWorkSection(resumeData);
   });
 
     return (
@@ -45,8 +45,13 @@ function ResumeActual() {
 
         <div className="row-title">Technical</div>
         <div className="technical">A technical card</div>
-        <div id="work-container" className="work-container"></div>
+        <div className="workDiv">
         
+        <div id="work-container" className="work-container"></div>
+        <div id="work-title" className="work-title">>BUTTER</div>
+        <div id="work-text" className="work-text">></div>
+        <div id="work-date" className="work-date">></div>
+        </div>
         {/* START OF WORK LOOP */}
         
 

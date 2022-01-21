@@ -63,28 +63,24 @@ export const populateWorkSection = (objFromJSON) => {
     const work = "basics" // how can I customize the object call????
     const populateSection = (iterationNumber) => {
     const JSONCompanyNameString = JSON.stringify(objFromJSON.work[iterationNumber].name);
-    const workArticleDiv = document.createElement('div');
-    workArticleDiv.id = 'work-container';
-    const workContainer = document.getElementById("work-container");
+    const workContainer = document.getElementById("work-text");
     const companyNameHeader = document.createElement("p");
     const companyNameTextNode = document.createTextNode((JSONCompanyNameString));
-    workArticleDiv.appendChild(companyNameHeader); 
+    workContainer.appendChild(companyNameHeader); 
     companyNameHeader.appendChild(companyNameTextNode);
     workContainer.appendChild(companyNameHeader);
     workContainer.className="work-article";
 
-    const JSONDateString = "ff" 
+    const JSONDateString = "THE DATE" 
         // JSON.stringify(objFromJSON.work[iterationNumber].startDate);
 
-    const workDateDiv = document.createElement('div');
-    workDateDiv.id = 'work-date-container';
-    const dateContainer = document.getElementById("work-date-container");
+    const dateContainer = document.getElementById("work-date");
     const workDateHeader = document.createElement("p");
     const workDateTextNode = document.createTextNode((JSONDateString));
-    // workDateDiv.appendChild(workDateHeader); 
-    // workDateHeader.appendChild(workDateTextNode);
-    // dateContainer.appendChild(workDateHeader);
-    // dateContainer.className="work-date";
+    dateContainer.appendChild(workDateHeader); 
+    workDateHeader.appendChild(workDateTextNode);
+    dateContainer.appendChild(workDateHeader);
+    dateContainer.className="work-date";
 
 
 

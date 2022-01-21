@@ -57,7 +57,15 @@
     border: solid;
 }
 
+.workDiv {
+    grid-column: 1/6;
+    border: dotted;
+    padding: 0px
+}
+
+
 .work-container {
+    
     display: grid;
     grid-template-columns:  auto 26% 26% 13% 13%;
     background-color: #666;
@@ -73,9 +81,15 @@
 }
 
 .work-article {
-    grid-column: 2/5;
+    grid-column: 2/4;
     padding: 0px;
     border: dotted;
+
+}
+
+.work-title {
+    grid-column: 1/2;
+    padding: 0px;
 
 }
 
