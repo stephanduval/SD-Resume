@@ -53,30 +53,26 @@ function ResumeActual() {
              
             </div>
         </div>
-        {/* START OF WORK LOOP */}
         
 
 
 
-        {/* END OF WORK LOOP */}
         <div className="row-title">Education</div>
-        <div className="education">An education card</div>
+        <div className="education-card">An education card</div>
+
+      
+        <div className ="workDiv">
+          <div id="work-container" className="education-container">
+            <div className="row-title">Education</div>
+            <div className="education-card">An education card</div>
+          </div>
+          
+      </div>
+        
 
       </div>
-      <div id="div1">
-  <p id="p1">This is a paragraph.</p>
-  <p id="p2">This is another paragraph.</p>
-</div>
+ 
     
-      {(JSON.stringify(resumeData.basics.name))}
-      <br></br>
-     {/* parse {parseSpeficiedDataFRomResumeJSON(resumeData,basics,name)} */}
-      <br></br>
-    {/* test JSON Function {testJSONFunction(param)} */}
-    <br></br>
-      {/* {mapJSONData(resumeData)} */}
-      ResumeActual  
-
 
 
 

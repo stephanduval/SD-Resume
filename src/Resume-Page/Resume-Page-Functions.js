@@ -1,19 +1,4 @@
 
-import resumeData from './Resume-data.json';
-import './Resume-Page.css';
-
-
-const basics ="basics";
-const profiles = "profiles";
-const network = "network";
-
-
-export const testJSONFunction = (parameter) => {
-    let final = JSON.stringify(resumeData.parameter,null,2);
-
-    return (final)
-}
-
 
 export const parseSpeficiedDataFRomResumeJSON = (resumeData,tier1,tier2,tier3)=> {
 
@@ -59,7 +44,7 @@ export const parseSpeficiedDataFRomResumeJSON = (resumeData,tier1,tier2,tier3)=>
 
 export const populateWorkSection = (objFromJSON,title) => {
   // const work = objFromJSON['work'];
-    const work = "basics" // how can I customize the object call????
+    const work = "basics" // how can I destructure the object call????
     const populateSection = (iterationNumber) => {
 
     
@@ -111,34 +96,25 @@ export const populateWorkSection = (objFromJSON,title) => {
   
   }
 }
-/*  Sample JSON code temp
+
+export const populateEducationSection = () => {
 
 
-    "work": [{
-      "name": "eSnail.ca",
-      "position": "Director of Operations",
-      "url": "https://eSnail.ca",
-      "startDate": "2008-02-11",
-      "endDate": "CURRENT",
-      "summary": "Company founder and manager of day to day operations",
-      "highlights": [
-        "Started the company and oversaw it through three major developement changes"
+}
+
+/* Sample JSON DATA
+
+ }],
+    "education": [{
+      "institution": "University of Alberta",
+      "url": "https://www.ualberta.ca/",
+      "area": "Arts",
+      "studyType": "Bachelor",
+      "startDate": "2003-09-01",
+      "endDate": "2008-08-15",
+      "score": "3.2",
+      "courses": [
+        "Spanish 201, Comp Sci 101, Writing and English 400"
       ]
-    },
-    {
-        "name": "MailClerk.com",
-        "position": "Director",
-        "url": "https://mailclerk.com",
-        "startDate": "2020-02-08",
-        "endDate": "CURRENT",
-        "summary": "Company founder and manager of day to day operations",
-        "highlights": [
-          "Started the company and began developing an operations team"
-        ]
     }],
-
     */
-
-
-    
-    

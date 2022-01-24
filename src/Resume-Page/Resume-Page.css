@@ -81,6 +81,7 @@
     text-align: center;
 }
 
+
 .work-title {
     grid-column: 1/2;
     padding: 0px;
@@ -124,10 +125,17 @@ div {
     text-align: center;
 }
 
-.education {
+.education-card {
     grid-column: 2/6;
     border: solid;
+}
 
+.education-title {
+    background-color: #999;
+    border: solid;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 
 }
 
