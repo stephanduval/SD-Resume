@@ -1,14 +1,12 @@
 
 
 
-import resumeData from './Resume-data.json';
-import { skills } from './Resume-Page-Contants';
-import { createListFromArray } from './Resume-Page-Functions'
-
-console.log("Object.values(resumeData)",(Object.values(resumeData.skills))[0].keywords)
+import { constants } from './Resume-Page-Contants';
+import { createFlexListFromArray } from './Resume-Page-Functions'
 
 
-let skillsArray = (Object.values(resumeData.skills))[0].keywords
+
+let skillsArray = constants.skillsArray
 
 
 
@@ -16,11 +14,16 @@ let skillsArray = (Object.values(resumeData.skills))[0].keywords
 
 function SkillsComponent() {
     return (
-      <div className="SkillsComponent" className="five-column-flex-container">
+      <div id="SkillsComponent" className="five-column-grid-container">
+        <div className="heading-title">{constants.skillsHeading}</div>
+        <div className="row-two-to-six-text-field">
 
-            <div className="heading-title">1 </div>
-            {createListFromArray(skillsArray)}
-                     </div>
+            <div id="SkillsFlexContainer" className="five-column-flex-container">
+            
+                {createFlexListFromArray(skillsArray)}
+            </div>
+          </div>
+      </div>
     );
   }
 

@@ -1,14 +1,18 @@
-export const createListFromArray = (arrayParam, columnHeight) => {
-    let iterationNumber = 0;
+export const createFlexListFromArray = (arrayParam) => {
+  let FlexListKey = 0;
   const mappedArray = () => arrayParam.map(element => {
-      
-      return (<li>{element}</li>)
-    
-    }
+    FlexListKey++ 
+     return (<div key={FlexListKey.toString()} >{element}</div>)
+     })
+  return ( <div id="SkillsFlexContainer" className="five-column-flex-container">        
+         {mappedArray()}
+          </div>)
 
-      
-    )
-  return (<div><ul>{mappedArray()}</ul></div>)
+}
+
+export const capitalizeFirstLetter = (stringParam) => {
+    return (stringParam)[0].toUpperCase() + (stringParam).substring(1);
+    //(Object.keys(resumeData)[1])[0].toUpperCase() + (Object.keys(resumeData)[1]).substring(1), 
 }
 
 

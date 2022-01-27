@@ -92,6 +92,20 @@
         "random",
         "skills"
       ]
+    },{
+      "name": "Film",
+      "level": "Master",
+      "keywords": [
+        "Cinematography",
+        "Operating",
+        "Scheduling",
+        "Mentoring",
+        "RED",
+        "ARRI",
+        "Preston",
+        "random",
+        "skills"
+      ]
     }],
     "languages": [{
       "language": "English",
@@ -115,7 +129,28 @@
         "Won award at AIHacks 2016"
       ],
       "keywords": [
-        "HTML"
+        "HTML",
+        "SEO"
+      ],
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "url": "https://project.com/",
+      "roles": [
+        "Team Lead"
+      ],
+      "entity": "Entity",
+      "type": "application"
+    },{
+      "name": "Project II",
+      "description": "Description…",
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ],
+      "keywords": [
+        "HTML",
+        "random",
+        "CSS",
+        "a New Skill"
       ],
       "startDate": "2019-01-01",
       "endDate": "2021-01-01",

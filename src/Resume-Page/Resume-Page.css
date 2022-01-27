@@ -87,9 +87,16 @@
     line-height: 1.0;
     border: none;
     text-align: center;
-    height: 50px;
+    height: auto;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
 }
 
+
+.five-column-flex-container>* {
+    flex: 1 2 160px;
+}
 
 .date {
     grid-column: 5/6;
