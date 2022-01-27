@@ -107,45 +107,59 @@ export const populateTechnicalSection = (objFromJSON,title) => {
 
   const populateSection = (iterationNumber) => {
 
- const sectionContainer = document.getElementById("technical-container");
+     const sectionContainer = document.getElementById("technical-container");
      
      let JSONString = title;  //Unique Value
      let div = document.createElement("div");
      let paragraph = document.createElement("p");
      let text = document.createTextNode(JSONString); 
-     
+
+
      sectionContainer.appendChild(div); 
      div.appendChild(paragraph);
      paragraph.appendChild(text);
      div.classList.add("heading-title");  // Unique Value
      div.setAttribute("id", "work-title");  // Unique Value
 
+     div = document.createElement("div");
+     paragraph = document.createElement("p");
+     text = document.createTextNode("new node"); 
 
-     // List 
+     sectionContainer.appendChild(div); 
+     div.appendChild(paragraph);
+     paragraph.appendChild(text);
+     div.classList.add("row-2-to-3-text-field");  // Unique Value
+     div.setAttribute("id", "list-section");  // Unique Value
 
-     let unorderedList = document.createElement("ul");
-      let listItem = document.createElement("li");
-    
-    div = document.createElement("div");
-
-    sectionContainer.appendChild(div); 
-    // div.classList.add("row-two-to-five-text-field");  // Unique Value
-
+    let unorderedList = document.createElement("ul");
+    let listItem = document.createElement("li");
      div.appendChild(unorderedList);
      
      for (let technicalListIterationNumber = 0; iterationNumber < 20; iterationNumber++) {
-      listItem = document.createElement("li")
-      unorderedList.appendChild(listItem);
-      listItem.appendChild(document.createTextNode("list"));  
-      if (iterationNumber % 3 == 0) {
+      // listItem = document.createElement("li")
+      // unorderedList.appendChild(listItem);
+      // listItem.appendChild(document.createTextNode("list"));  
+      // div.classList.add("row-2-to-3-text-field");  // Unique Value
+
+      while (technicalListIterationNumber % 3 != 0) {
+        console.log("Split List",iterationNumber % 3)
+        
         div = document.createElement("div");
-
         sectionContainer.appendChild(div); 
-
+        div.classList.add("row-" + Math.floor(technicalListIterationNumber/3) +"-to-" +  Math.floor(technicalListIterationNumber/3+1) + "-text-field");  // Unique Value
         div.appendChild(unorderedList);
-
-
+        listItem = document.createElement("li")
+        unorderedList.appendChild(listItem);
+        listItem.appendChild(document.createTextNode("list"));
+        technicalListIterationNumber++
       }
+        div.appendChild(unorderedList);
+        listItem = document.createElement("li")
+        unorderedList.appendChild(listItem);
+        listItem.appendChild(document.createTextNode("list"));
+        // div.classList.add("row-3-to-4-t  ext-field");  // Unique Value
+
+        technicalListIterationNumber++
      }
     //  populateList();
      

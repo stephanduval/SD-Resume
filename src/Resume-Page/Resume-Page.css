@@ -54,8 +54,6 @@
 
 }
 
-
-
 .section-div {
     grid-column: 1/6;
     border: none;
@@ -79,22 +77,6 @@
     text-align: center;
 }
 
-
-.heading-title {
-    grid-column: 1/2;
-    padding: 0px;
-    border: none;
-    background-color: sandybrown;
-}
-
-.row-two-to-five-text-field {
-    grid-column: 2/5;
-    padding: 0px;
-    border: none;
-    background-color: sandybrown;
-
-}
-
 .date {
     grid-column: 5/6;
     padding: 0px;
@@ -116,6 +98,60 @@ div {
     background-color: sandybrown;
 
 }
+
+
+.heading-title {
+    grid-column: 1/2;
+    padding: 0px;
+    border: none;
+    background-color: sandybrown;
+}
+
+.row-two-to-five-text-field {
+    grid-column: 2/5;
+    padding: 0px;
+    border: none;
+    background-color: sandybrown;
+
+}
+
+.row-2-to-3-text-field {
+    grid-column: 2/3;
+    padding: 0px;
+    border: none;
+    background-color: sandybrown;
+
+}
+
+
+.row-3-to-4-text-field {
+    grid-column: 3/4;
+    padding: 0px;
+    border: none;
+    background-color: sandybrown;
+
+}
+
+
+.row-4-to-5-text-field {
+    grid-column: 4/5;
+    padding: 0px;
+    border: none;
+    background-color: sandybrown;
+
+}
+
+
+.row-5-to-6-text-field {
+    grid-column: 5/6;
+    padding: 0px;
+    border: none;
+    background-color: sandybrown;
+
+}
+
+
+
 
 
 
