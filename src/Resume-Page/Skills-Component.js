@@ -2,37 +2,25 @@
 
 
 import resumeData from './Resume-data.json';
+import { skills } from './Resume-Page-Contants';
+import { createListFromArray } from './Resume-Page-Functions'
 
-console.log("Object.values(resumeData)",Object.values(resumeData.basics))
-
-const aJSXComponent = () => {
-    let element = <h6>A JSX component {Object.keys(resumeData.basics)} </h6>
-
-    let anArray = Object.keys(resumeData);
-    console.log("anArray", anArray, typeof anArray)
+console.log("Object.values(resumeData)",(Object.values(resumeData.skills))[0].keywords)
 
 
-    let mappedArray = () => 
-    
-    
-    mappedArray = anArray.map(element => {
-        return <li>{element}</li>
-    })
+let skillsArray = (Object.values(resumeData.skills))[0].keywords
 
 
-    return (<ul>{mappedArray()}</ul>)
-}
+
+
 
 function SkillsComponent() {
     return (
-      <div className="SkillsComponent" className="five-column-grid-container">
+      <div className="SkillsComponent" className="five-column-flex-container">
 
-            <div className="heading-title">1 {aJSXComponent()}</div>
-            <div className="row-2-to-3-text-field">2</div>
-            <div className="row-3-to-4-text-field">3</div>
-            <div className="row-4-to-5-text-field">4</div>
-            <div className="row-5-to-6-text-field">5</div>
-         </div>
+            <div className="heading-title">1 </div>
+            {createListFromArray(skillsArray)}
+                     </div>
     );
   }
 

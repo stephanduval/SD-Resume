@@ -1,3 +1,15 @@
+export const createListFromArray = (arrayParam, columnHeight) => {
+    let iterationNumber = 0;
+  const mappedArray = () => arrayParam.map(element => {
+      
+      return (<li>{element}</li>)
+    
+    }
+
+      
+    )
+  return (<div><ul>{mappedArray()}</ul></div>)
+}
 
 
 export const parseSpeficiedDataFRomResumeJSON = (resumeData,tier1,tier2,tier3)=> {
