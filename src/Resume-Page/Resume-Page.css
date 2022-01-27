@@ -34,6 +34,8 @@
     
 }
 
+
+
 .contact-information {
     grid-column: 4/6;
     background-color: #888;
@@ -43,7 +45,7 @@
 
 }
 
-.row-title {
+.heading-title {
     background-color: #999;
     border: solid;
     padding: 20px;
@@ -52,23 +54,20 @@
 
 }
 
-.profile {
-    grid-column: 2/6;
-    border: solid;
-}
 
-.workDiv {
+
+.section-div {
     grid-column: 1/6;
-    border: dotted;
+    border: none;
     padding: 0px
 }
 
 
-.work-container {
+.five-column-grid-container {
     
     display: grid;
-    grid-template-columns:  auto auto auto auto auto;
-    background-color: #666;
+    grid-template-columns:  auto 26% 26% 13% 13%;;
+    background-color: rgb(16, 156, 110);
     padding: 0;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
@@ -76,86 +75,49 @@
     width: 100%;
     margin: auto;
     line-height: 1.0;
-    border: dashed;
-    border-color: blue;
+    border: none;
     text-align: center;
 }
 
 
-.work-title {
+.heading-title {
     grid-column: 1/2;
     padding: 0px;
-    border: dotted;
+    border: none;
     background-color: sandybrown;
 }
 
-.work-text {
+.row-two-to-five-text-field {
     grid-column: 2/5;
     padding: 0px;
-    border: dotted;
+    border: none;
     background-color: sandybrown;
 
 }
 
-.work-date {
+.date {
     grid-column: 5/6;
     padding: 0px;
-    border: dotted;
+    border: none;
     background-color: sandybrown;
 }
 
 
-.technical {
-    grid-column: 2/6;
-    border: solid;
-    
-}
 
 div {
     padding: 0px;
   }
 
-.work {
-    grid-column: 2/5;
-    border: solid;
-    background-color: #999;
-    border: solid;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-}
 
-.education-card {
+
+.row-two-to-six-text-field {
     grid-column: 2/6;
     border: solid;
-}
-
-.education-title {
-    background-color: #999;
-    border: solid;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-
-}
-
-.date {
-    background-color: aliceblue;
-    border: solid;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+    background-color: sandybrown;
 
 }
 
 
-.skills {
-    background-color: #888;
-    border: solid;
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    
-    
-}
+
+
 
