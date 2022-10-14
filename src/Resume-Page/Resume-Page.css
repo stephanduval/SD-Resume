@@ -1,0 +1,182 @@
+.grid-container {
+    display: grid;
+    grid-template-columns:  auto 26% 26% 13% 13%;
+    background-color: #666;
+    padding: 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-gap: 10px;
+    width: 80%;
+    margin: auto;
+    line-height: 1.0;
+    border: solid;
+    text-align: center;
+}
+
+.contents-container {
+    display: grid;
+    grid-template-columns:  auto 26% 26% 13% 13%;
+    background-color: #666;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-gap: 10px;
+    width: 100%%;
+    margin: auto;
+    line-height: 1.0;
+    text-align: center;
+}
+
+.resume-header {
+    grid-column: 1/4;
+    background-color: #888;
+    padding: 20px;
+    font-size: 30px;
+    
+}
+
+
+
+.contact-information {
+    grid-column: 4/6;
+    background-color: #888;
+    padding: 0px;
+    padding-top: 20px;
+    font-size: 20px;
+
+}
+
+.heading-title {
+    background-color: #999;
+    border: solid;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.section-div {
+    grid-column: 1/6;
+    border: none;
+    padding: 0px
+}
+
+
+.five-column-grid-container {
+    
+    display: grid;
+    grid-template-columns:  auto 26% 26% 13% 13%;;
+    background-color: rgb(16, 156, 110);
+    padding: 0;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-gap: 10px;
+    width: 100%;
+    margin: auto;
+    line-height: 1.0;
+    border: none;
+    text-align: center;
+
+}
+
+.five-column-flex-container {
+    
+    display: flex;
+    background-color: rgb(16, 156, 110);
+    padding: 0;
+    margin: auto;
+    line-height: 1.0;
+    border: none;
+    text-align: center;
+    height: auto;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+
+.five-column-flex-container>* {
+    flex: 1 2 160px;
+}
+
+.date {
+    grid-column: 5/6;
+    padding: 0px;
+    border: none;
+    background-color: sandybrown;
+}
+
+
+
+div {
+    padding: 0px;
+  }
+
+
+
+.row-two-to-six-text-field {
+    grid-column: 2/6;
+    border: solid;
+    background-color: sandybrown;
+
+}
+
+
+.heading-title {
+    grid-column: 1/2;
+    padding: 0px;
+    border: none;
+    background-color: sandybrown;
+}
+
+.row-two-to-five-text-field {
+    grid-column: 2/5;
+    padding: 0px;
+    border: none;
+    background-color: sandybrown;
+
+}
+
+.row-2-to-3-text-field {
+    grid-column: 2/3;
+    padding: 0px;
+    border: none;
+    background-color: sandybrown;
+
+}
+
+
+.row-3-to-4-text-field {
+    grid-column: 3/4;
+    padding: 0px;
+    border: none;
+    background-color: sandybrown;
+
+}
+
+
+.row-4-to-5-text-field {
+    grid-column: 4/5;
+    padding: 0px;
+    border: none;
+    background-color: sandybrown;
+
+}
+
+
+.row-5-to-6-text-field {
+    grid-column: 5/6;
+    padding: 0px;
+    border: none;
+    background-color: sandybrown;
+
+}
+
+
+
+
+
+
+
+
+
+
