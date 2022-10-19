@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.14)  14 OCT 2022 11:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.14)  19 OCT 2022 10:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex"
-(c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex
+**"c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex"
+(c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-09-28> (C:\Users\steph\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -519,7 +519,7 @@ File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:32: Package fontawesome5 Error: Incompatible version of Font Awesome already
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:32: Package fontawesome5 Error: Incompatible version of Font Awesome already
 (fontawesome5)                loaded
 
 For immediate help type H <return>.
@@ -555,8 +555,8 @@ File: pgfmoduleparser.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@lib@svg@last@c@y=\dimen279
 \pgf@lib@svg@count=\count308
 \pgf@lib@svg@max@num=\count309
-)) (sd-programming-resume-English.aux)
-\openout1 = `sd-programming-resume-English.aux'.
+)) (sd-programming-resume-French.aux)
+\openout1 = `sd-programming-resume-French.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 147.
 LaTeX Font Info:    ... okay on input line 147.
@@ -597,11 +597,11 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 147.
 \@outlinefile=\write4
-\openout4 = `sd-programming-resume-English.out'.
+\openout4 = `sd-programming-resume-French.out'.
 
 
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:154: LaTeX Error: There's no line here to end.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:154: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -630,7 +630,7 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomethree on in
 File: ufontawesomethree.fd 2016/05/22 Font definitions for U/fontawesomethree.
 )
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:162: LaTeX Error: \begin{center} on input line 152 ended by \end{singlespace}.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:162: LaTeX Error: \begin{center} on input line 152 ended by \end{singlespace}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -643,7 +643,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:168: LaTeX Error: \begin{document} ended by \end{center}.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:168: LaTeX Error: \begin{document} ended by \end{center}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -655,7 +655,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:168: Extra \endgroup.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:168: Extra \endgroup.
 <recently read> \endgroup 
                           
 l.168 \end{center}
@@ -674,7 +674,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 177.
 Runaway argument?
 {\small 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:186: Paragraph ended before \text@command was complete.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:186: Paragraph ended before \text@command was complete.
 <to be read again> 
                    \par 
 l.186 \usepackage
@@ -683,7 +683,7 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:186: Extra }, or forgotten \endgroup.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:186: Extra }, or forgotten \endgroup.
 <recently read> \egroup 
                         
 l.186 \usepackage
@@ -696,7 +696,7 @@ deleted material, e.g., by typing `I$}'.
 
 Runaway argument?
 {\large 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:186: Paragraph ended before \text@command was complete.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:186: Paragraph ended before \text@command was complete.
 <to be read again> 
                    \par 
 l.186 \usepackage
@@ -705,7 +705,7 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:186: Extra }, or forgotten \endgroup.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:186: Extra }, or forgotten \endgroup.
 <recently read> \egroup 
                         
 l.186 \usepackage
@@ -717,7 +717,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:186: LaTeX Error: Can be used only in preamble.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:186: LaTeX Error: Can be used only in preamble.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -731,7 +731,7 @@ or  <return>  to continue without it.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 228.
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:228: Illegal unit of measure (pt inserted).
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:228: Illegal unit of measure (pt inserted).
 <to be read again> 
                    =
 l.228 ...erline{React/Redux}}}{JUN 2021 - Ongoing}
@@ -743,7 +743,7 @@ To recover gracefully from this error, it's best to
 delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:228: Missing number, treated as zero.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:228: Missing number, treated as zero.
 <to be read again> 
                    \relax 
 l.228 ...erline{React/Redux}}}{JUN 2021 - Ongoing}
@@ -752,7 +752,7 @@ A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:228: Illegal unit of measure (pt inserted).
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:228: Illegal unit of measure (pt inserted).
 <to be read again> 
                    \relax 
 l.228 ...erline{React/Redux}}}{JUN 2021 - Ongoing}
@@ -774,7 +774,7 @@ Overfull \hbox (0.55968pt too wide) in paragraph at lines 237--239
 []  
  []
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:293: Missing } inserted.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:293: Missing } inserted.
 <inserted text> 
                 }
 l.293 ...ess affairs, contracts and employees.}}}}
@@ -785,7 +785,7 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:293: Missing } inserted.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:293: Missing } inserted.
 <inserted text> 
                 }
 l.293 ...ess affairs, contracts and employees.}}}}
@@ -819,7 +819,7 @@ Overfull \hbox (0.55968pt too wide) in paragraph at lines 293--293
  []
 
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:293: LaTeX Error: \begin{itemize} on input line 180 ended by \end{singlespace}.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:293: LaTeX Error: \begin{itemize} on input line 180 ended by \end{singlespace}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -832,7 +832,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:293: LaTeX Error: Lonely \item--perhaps a missing list environment.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:293: LaTeX Error: Lonely \item--perhaps a missing list environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -850,7 +850,7 @@ Underfull \hbox (badness 10000) detected at line 293
 
 Runaway argument?
 {\small 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:293: Paragraph ended before \text@command was complete.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:293: Paragraph ended before \text@command was complete.
 <to be read again> 
                    \par 
 l.293 ...ess affairs, contracts and employees.}}}}
@@ -859,7 +859,7 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:293: Extra }, or forgotten \endgroup.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:293: Extra }, or forgotten \endgroup.
 <recently read> \egroup 
                         
 l.293 ...ess affairs, contracts and employees.}}}}
@@ -875,7 +875,7 @@ Overfull \hbox (0.55968pt too wide) in paragraph at lines 293--293
 []  
  []
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:293: Extra }, or forgotten \endgroup.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:293: Extra }, or forgotten \endgroup.
 \resumeItem ... \item \small { {#1 \vspace {-2pt}}
                                                    } 
 l.293 ...ess affairs, contracts and employees.}}}}
@@ -886,7 +886,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:293: Extra }, or forgotten \endgroup.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:293: Extra }, or forgotten \endgroup.
 \resumeItem ...item \small { {#1 \vspace {-2pt}} }
                                                    
 l.293 ...ess affairs, contracts and employees.}}}}
@@ -898,7 +898,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:309: LaTeX Error: \begin{document} ended by \end{singlespace}.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:309: LaTeX Error: \begin{document} ended by \end{singlespace}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -910,36 +910,36 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:309: Extra \endgroup.
+c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex:309: Extra \endgroup.
 <recently read> \endgroup 
                           
 l.309 \end{singlespace}
                        
 Things are pretty mixed up, but I think the worst is over.
 
-[2] (sd-programming-resume-English.aux)
+[2] (sd-programming-resume-French.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-Package rerunfilecheck Warning: File `sd-programming-resume-English.out' has changed.
+Package rerunfilecheck Warning: File `sd-programming-resume-French.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `sd-programming-resume-English.out':
+Package rerunfilecheck Info: Checksums for `sd-programming-resume-French.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  1E5CA476A04FEEA2A2E95AFF9E44C778;591.
  ) 
 Here is how much of TeX's memory you used:
  25655 strings out of 475385
- 500968 string characters out of 2776906
- 814603 words of memory out of 3000000
+ 500954 string characters out of 2776906
+ 814600 words of memory out of 3000000
  46608 multiletter control sequences out of 15000+600000
  478346 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,9n,89p,669b,729s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 84i,9n,89p,668b,729s stack positions out of 10000i,1000n,20000p,200000b,80000s
  <C:\Users\steph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\steph\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk>{C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on sd-programming-resume-English.pdf (2 pages, 175961 bytes).
+Output written on sd-programming-resume-French.pdf (2 pages, 175961 bytes).
 PDF statistics:
  115 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)

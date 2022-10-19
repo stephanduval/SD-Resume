@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1665761148 "c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex" "sd-programming-resume-English.pdf" "sd-programming-resume-English" 1665761148
+["pdflatex"] 1666190860 "c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex" "sd-programming-resume-French.pdf" "sd-programming-resume-French" 1666190860
   "C:/Users/steph/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1665756265 82375 47b8b2ff476b5d8349e9ab47c4caa869 ""
   "C:/Users/steph/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1665759827 11548 1638d878d278aefc0cb072221cdd46a8 ""
   "C:/Users/steph/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1665759828 12668 a2bf3734e33396401bf08a32b34d2f01 ""
@@ -187,12 +187,12 @@
   "C:/Users/steph/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1654690828 7392 6cb60c76983625ab7344d128dbcdd881 ""
   "C:/Users/steph/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/steph/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex" 1665759822 11912 2d7e2a3290fdfd6a84dc234295bb57fd ""
-  "sd-programming-resume-English.aux" 1665761148 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "sd-programming-resume-English.out" 0 -1 0 "pdflatex"
-  "sd-programming-resume-English.tex" 1665759822 11912 2d7e2a3290fdfd6a84dc234295bb57fd ""
+  "c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-French.tex" 1666190856 11912 2d7e2a3290fdfd6a84dc234295bb57fd ""
+  "sd-programming-resume-French.aux" 1666190860 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "sd-programming-resume-French.out" 0 -1 0 "pdflatex"
+  "sd-programming-resume-French.tex" 1666190856 11912 2d7e2a3290fdfd6a84dc234295bb57fd ""
   (generated)
-  "sd-programming-resume-English.aux"
-  "sd-programming-resume-English.log"
-  "sd-programming-resume-English.out"
-  "sd-programming-resume-English.pdf"
+  "sd-programming-resume-French.aux"
+  "sd-programming-resume-French.log"
+  "sd-programming-resume-French.out"
+  "sd-programming-resume-French.pdf"
