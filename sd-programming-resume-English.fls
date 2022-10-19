@@ -1,7 +1,7 @@
 PWD c:\Users\steph\OneDrive\Documents\Programming Projects\SD-programming-resume-latex
 INPUT C:\Users\steph\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\steph\OneDrive\Documents\Programming Projects\SD-programming-resume-latex\sd-programming-resume-French.tex
-OUTPUT sd-programming-resume-French.log
+INPUT c:\Users\steph\OneDrive\Documents\Programming Projects\SD-programming-resume-latex\sd-programming-resume-English.tex
+OUTPUT sd-programming-resume-English.log
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -888,10 +888,10 @@ INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibrarysvg.path.code.tex
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibrarysvg.path.code.tex
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\tex\generic\pgf\modules\pgfmoduleparser.code.tex
-INPUT .\sd-programming-resume-French.aux
-INPUT sd-programming-resume-French.aux
-INPUT sd-programming-resume-French.aux
-OUTPUT sd-programming-resume-French.aux
+INPUT .\sd-programming-resume-English.aux
+INPUT sd-programming-resume-English.aux
+INPUT sd-programming-resume-English.aux
+OUTPUT sd-programming-resume-English.aux
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -911,8 +911,8 @@ INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-s
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-OUTPUT sd-programming-resume-French.out
-OUTPUT sd-programming-resume-French.pdf
+OUTPUT sd-programming-resume-English.out
+OUTPUT sd-programming-resume-English.pdf
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome\ufontawesometwo.fd
@@ -956,16 +956,10 @@ INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy10.tfm
-INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
-INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\steph\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
-INPUT sd-programming-resume-French.aux
-INPUT .\sd-programming-resume-French.out
-INPUT .\sd-programming-resume-French.out
-INPUT C:\Users\steph\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\steph\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\steph\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
-INPUT C:\Users\steph\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk
+INPUT sd-programming-resume-English.aux
+INPUT .\sd-programming-resume-English.out
+INPUT .\sd-programming-resume-English.out
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome\fontawesomethree.enc
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome\fontawesometwo.enc
 INPUT C:\Users\steph\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome\FontAwesome.pfb
