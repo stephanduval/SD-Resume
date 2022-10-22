@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1666194694 "c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex" "sd-programming-resume-English.pdf" "sd-programming-resume-English" 1666194694
+["pdflatex"] 1666473634 "c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex" "sd-programming-resume-English.pdf" "sd-programming-resume-English" 1666473634
   "C:/Users/steph/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1665756265 82375 47b8b2ff476b5d8349e9ab47c4caa869 ""
   "C:/Users/steph/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1665755930 10788011 579eb262ffd49ee3c637b65b4308aca9 ""
   "C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomethree.enc" 1463869852 2437 443c81fb50993bacedc5f9a206c322b0 ""
@@ -34,7 +34,6 @@
   "C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb" 1247596667 36554 b67dc2cfa451409e100b3fcf5f506509 ""
   "C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1247596667 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
-  "C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1247596667 32587 65067f817f408bc71a7312f3d9828a9b ""
   "C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
@@ -183,10 +182,10 @@
   "C:/Users/steph/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1654690828 7392 6cb60c76983625ab7344d128dbcdd881 ""
   "C:/Users/steph/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/steph/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex" 1666194691 11723 c9329d2e71f61bb8ab25982b7c557aec ""
-  "sd-programming-resume-English.aux" 1666194694 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex" 1666473631 11639 3e05ce7d1608f02fba7aa8611ff34843 ""
+  "sd-programming-resume-English.aux" 1666473634 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
   "sd-programming-resume-English.out" 0 -1 0 "pdflatex"
-  "sd-programming-resume-English.tex" 1666194691 11723 c9329d2e71f61bb8ab25982b7c557aec ""
+  "sd-programming-resume-English.tex" 1666473631 11639 3e05ce7d1608f02fba7aa8611ff34843 ""
   (generated)
   "sd-programming-resume-English.aux"
   "sd-programming-resume-English.log"

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.14)  19 OCT 2022 11:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8.28) (preloaded format=pdflatex 2022.10.14)  22 OCT 2022 17:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -711,8 +711,6 @@ l.188 \end{comment}
                    
 Things are pretty mixed up, but I think the worst is over.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 224.
 c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:224: Illegal unit of measure (pt inserted).
 <to be read again> 
                    =
@@ -779,17 +777,12 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (161.3106pt too wide) in alignment at lines 289--289
-[] [] 
- []
-
-
 Overfull \hbox (0.55968pt too wide) in paragraph at lines 289--289
 []  
  []
 
 
-Overfull \hbox (53.2774pt too wide) in alignment at lines 289--289
+Overfull \hbox (17.55856pt too wide) in alignment at lines 289--289
 [] [] 
  []
 
@@ -869,6 +862,8 @@ Overfull \hbox (0.55968pt too wide) in paragraph at lines 289--289
 []  
  []
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 289.
 c:/Users/steph/OneDrive/Documents/Programming Projects/SD-programming-resume-latex/sd-programming-resume-English.tex:289: Extra }, or forgotten \endgroup.
 \resumeItem ... \item \small { {#1 \vspace {-2pt}}
                                                    } 
@@ -932,10 +927,10 @@ Here is how much of TeX's memory you used:
  477670 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,9n,89p,669b,561s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on sd-programming-resume-English.pdf (2 pages, 174185 bytes).
+{C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesomethree.enc}{C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/steph/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on sd-programming-resume-English.pdf (2 pages, 159302 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
